@@ -49,6 +49,10 @@
   --vz-retrying: #a86a12; /* state/retrying */
   --vz-retrying-bg: #fbf4e6; /* state/retrying-bg */
   --vz-retrying-line: #ebd9b0; /* state/retrying-line */
+  /* The amber a *text* colour needs: #a86a12 reaches only 4.03:1 on bg/surface, below the
+     4.5:1 small-text threshold. #8a560e is the same hue, darker: 5.59:1 on bg/surface,
+     5.61:1 on retrying-bg, 6.14:1 on ground. */
+  --vz-retrying-text: #8a560e; /* state/retrying-text */
   --vz-failed-hover: #a92e18; /* state/failed-hover */
   --vz-failed-pressed: #8f2513; /* state/failed-pressed */
 
@@ -155,6 +159,8 @@
     --vz-retrying: #e2b04a; /* state/retrying */
     --vz-retrying-bg: #2a2213; /* state/retrying-bg */
     --vz-retrying-line: #4a3d22; /* state/retrying-line */
+    /* In the dark theme the amber already clears the text threshold: 9.88:1 on bg/surface. */
+    --vz-retrying-text: #e2b04a; /* state/retrying-text */
     --vz-failed-hover: #ec7e67; /* state/failed-hover */
     --vz-failed-pressed: #cc5238; /* state/failed-pressed */
 
@@ -215,6 +221,8 @@
   --vz-retrying: #e2b04a; /* state/retrying */
   --vz-retrying-bg: #2a2213; /* state/retrying-bg */
   --vz-retrying-line: #4a3d22; /* state/retrying-line */
+  /* In the dark theme the amber already clears the text threshold: 9.88:1 on bg/surface. */
+  --vz-retrying-text: #e2b04a; /* state/retrying-text */
   --vz-failed-hover: #ec7e67; /* state/failed-hover */
   --vz-failed-pressed: #cc5238; /* state/failed-pressed */
 
