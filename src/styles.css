@@ -53,6 +53,7 @@
   --color-retrying: var(--vz-retrying);
   --color-retrying-bg: var(--vz-retrying-bg);
   --color-retrying-line: var(--vz-retrying-line);
+  --color-retrying-text: var(--vz-retrying-text);
   --color-failed-hover: var(--vz-failed-hover);
   --color-failed-pressed: var(--vz-failed-pressed);
   --color-graph-edge: var(--vz-graph-edge);
