@@ -51,6 +51,7 @@ export const colorTokens: ColorToken[] = [
   { name: "state/retrying", cssVar: "--vz-retrying", tw: "retrying", group: "state", description: "Amber: retrying with backoff, limits" },
   { name: "state/retrying-bg", cssVar: "--vz-retrying-bg", tw: "retrying-bg", group: "state", description: "Amber notice ground" },
   { name: "state/retrying-line", cssVar: "--vz-retrying-line", tw: "retrying-line", group: "state", description: "Amber notice edge" },
+  { name: "state/retrying-text", cssVar: "--vz-retrying-text", tw: "retrying-text", group: "state", description: "Amber text: the readable shade for small type" },
   { name: "state/failed-hover", cssVar: "--vz-failed-hover", tw: "failed-hover", group: "state", description: "Destructive button fill under the pointer" },
   { name: "state/failed-pressed", cssVar: "--vz-failed-pressed", tw: "failed-pressed", group: "state", description: "Destructive button fill while pressed" },
   { name: "state/selection", cssVar: "--vz-selection", tw: "selection", group: "state", description: "Selected text ground" },
